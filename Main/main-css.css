@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Century Gothic";
+}
+#welcome img{
+  width: 100%;
+  height: 50vw;
+}
+#f {
+  margin-top: 50px;
+  text-align: center;
+}
+#featured-items {
+  margin: 50px 0;
+  display: grid;
+  grid-template-areas: "item1 item2 item3"
+                       "item1 item4 item4";
+}
+.pictures img {
+  display: block;
+}
+.info {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: white;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+#item1 {
+  grid-area: item1;
+  z-index: 1;
+}
+#item1 img {
+  width: 45vw;
+  height: 35vw;
+}
+#item1:hover {
+  z-index: 0;
+}
+#info1 {
+  grid-area: item1;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+#info1:hover {
+  z-index: 1;
+}
+#info1 pre {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+#item2 {
+  grid-area: item2;
+  z-index: 1;
+}
+#item2 img {
+  width: 27vw;
+  height: 15vw;
+}
+#item2:hover {
+  z-index: 0;
+}
+#info2 {
+  grid-area: item2;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+#info2:hover {
+  z-index: 1;
+}
+#info2 pre {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+}
+#item3 {
+  grid-area: item3;
+  z-index: 1;
+}
+#item3 img {
+  width: 27.14vw;
+  height: 15vw;
+}
+#item3:hover {
+  z-index: 0;
+}
+#info3 {
+  grid-area: item3;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+#info3:hover {
+  z-index: 1;
+}
+#info3 pre {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+}
+#item4 {
+  grid-area: item4;
+  z-index: 1;
+}
+#item4 img {
+  width: 100%;
+  height: 19.94vw;
+}
+#item4:hover {
+  z-index: 0;
+}
+#info4 {
+  grid-area: item4;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+}
+#info4:hover {
+  z-index: 1;
+}
+#info4 pre {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}

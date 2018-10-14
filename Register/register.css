@@ -1,0 +1,60 @@
+p a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+p a:visited {
+  color: black;
+}
+p a:hover {
+  text-decoration: none;
+}
+p a:active {
+  text-decoration: none;
+  color: black;
+}
+#goback {
+  position: absolute;
+  left: 20;
+}
+body {
+  font-family: "Century Gothic";
+  margin: 0;
+  position: relative;
+}
+#greet{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+#name {
+  display: flex;
+}
+#firstName, #lastName, #email, #pass {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 20px 0;
+}
+.input {
+  border-radius: 5px;
+  border-width: medium;
+  height: 35px;
+}
+.button {
+  font-style: "Century Gothic";
+  margin-left: 10px;
+  padding: 0 45px;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+#done {
+  float: right;
+}
+#poster {
+  position: absolute;
+  left: 49%;
+}
+#poster img {
+  height: 100%;
+}

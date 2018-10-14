@@ -1,0 +1,109 @@
+ul {
+  list-style-type: none;
+}
+#reg a:link {
+  text-decoration: none;
+  color: white;
+}
+#reg a:visited {
+  color: white;
+}
+#reg a:hover {
+  text-decoration: underline;
+}
+#reg a:active {
+  text-decoration: none;
+  color: white;
+}
+#reg li, #nav li {
+  display: inline;
+  padding: 0 15px;
+}
+#register {
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+#reg {
+  color: white;
+  float: right;
+  margin: -10px 0;
+}
+#intro {
+  font-family: "Century Gothic";
+}
+#head {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  align-items: center;
+}
+#nav {
+  font-size: 25px;
+}
+#head a:link {
+  text-decoration: none;
+  color: black;
+}
+#head a:visited {
+  color: black;
+}
+#head a:hover {
+  text-decoration: none;
+}
+#head a:active {
+  text-decoration: none;
+  color: black;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 27px;
+    border: none;
+    outline: none;
+    color: black;
+    padding-right: 15px;
+    background-color: white;
+    font-family: "Century Gothic";
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#customer {
+  display: flex;
+  justify-content: space-around;
+}
+#customer-care ul {
+  position: relative;
+  right: 40px;
+}
+#about p{
+  text-align: justify;
+  max-width: 500px;
+}
+#foot {
+  margin-right: 15px;
+  float: right;
+}
