@@ -33,7 +33,7 @@
             </div>
               <li>Contact Us</li>
               <li>About</li>
-              <li><a href="../Shop/Cart/cart.php">Cart</a></li>
+              <li><a href="../Cart/cart.php">Cart</a></li>
             </ul>
         </nav>
       </header>

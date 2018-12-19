@@ -23,6 +23,8 @@
            $_SESSION['ses'] = true;
            $_SESSION['first'] = $rows['user_first'];
            $_SESSION['last'] = $rows['user_last'];
+           $_SESSION['email'] = $rows['user_email'];
+           $_SESSION['add'] = $rows['address'].', '.$rows['city'].', '.$rows['state'].', '.$rows['zip'];
            header("Location: ../Main/main.php");
            exit();
          } else {

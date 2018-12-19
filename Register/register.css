@@ -22,23 +22,28 @@ body {
   margin: 0;
   position: relative;
 }
-#greet{
+#greet {
   position: absolute;
+  max-width: 380px;
   top: 25%;
   left: 15%;
 }
-#name {
+#name, #address, #place {
   display: flex;
 }
-#firstName, #lastName, #email, #pass {
+#firstName, #lastName, #email, #pass, #add, #zip, #cont, #ste, #city {
   display: flex;
   flex-direction: column;
   margin: 0 10px 20px 0;
 }
-.input {
+.input, .cont {
   border-radius: 5px;
   border-width: medium;
   height: 35px;
+}
+.top {
+  min-width: 175px;
+  max-width: 175px;
 }
 .button {
   font-style: "Century Gothic";

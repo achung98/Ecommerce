@@ -1,0 +1,26 @@
+#customer {
+  margin-top: 20%;
+}
+body {
+  margin: 0;
+  font-family: "Century Gothic";
+}
+
+#cart {
+  margin: 0 auto;
+}
+
+#cart th {
+  font-size: 25px;
+  padding: 20px;
+}
+
+#cart th img {
+  width: 200px;
+  height: 200px;
+}
+
+input[type=number] {
+  width: 40px;
+  height: 30px;
+}
