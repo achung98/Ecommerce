@@ -1,65 +1,64 @@
-p a:link {
+a:link {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-p a:visited {
+a:visited {
   color: black;
 }
-p a:hover {
+a:hover {
   text-decoration: none;
 }
-p a:active {
+a:active {
   text-decoration: none;
   color: black;
 }
-#goback {
-  position: absolute;
-  left: 20;
-}
+
 body {
   font-family: "Century Gothic";
   margin: 0;
   position: relative;
 }
-#greet {
+
+#goback {
   position: absolute;
-  max-width: 380px;
-  top: 17%;
-  left: 15%;
+  left: 20;
 }
-#name, #address, #place {
-  display: flex;
+
+#checkout {
+  position: absolute;
+  width: 21%;
+  top: 27%;
+  left: 14%;
 }
-#firstName, #lastName, #email, #pass, #add, #zip, #cont, #ste, #city {
+
+#name, #email, #address {
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
-  margin: 0 10px 20px 0;
 }
-.input, .cont {
+
+.input {
   border-radius: 5px;
   border-width: medium;
   height: 35px;
 }
-.top {
-  min-width: 175px;
-  max-width: 175px;
-}
+
 .button {
   font-style: "Century Gothic";
-  margin-left: 10px;
+  margin-left: 28px;
   padding: 0 45px;
   background-color: black;
   color: white;
   border-color: black;
 }
-#done {
-  float: right;
-}
+
 #poster {
   position: absolute;
   left: 49%;
 }
+
 #poster img {
   height: 100%;
+  width: 99%;
 }

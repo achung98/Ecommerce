@@ -1,6 +1,25 @@
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
 #customer {
   margin-top: 20%;
 }
+
 body {
   margin: 0;
   font-family: "Century Gothic";
@@ -20,7 +39,22 @@ body {
   height: 200px;
 }
 
-input[type=number] {
-  width: 40px;
-  height: 30px;
+#checkout {
+  background-color: black;
+  color: white;
+  margin-left: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#checkout:hover {
+    opacity: 0.7;
+}
+
+#empty {
+  width: 50%;
+  margin: 0 42%;
+  margin-top: 15%;
 }

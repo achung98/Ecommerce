@@ -12,7 +12,7 @@
 </head>
 <?php include_once '../header.php'; ?>
 <hr>
-<section id="smartphones">
+<section id="products">
   <?php
     include_once '../Includes/dbh.inc.php';
     //Select items table
@@ -26,7 +26,7 @@
       if(preg_match($section, $rows['img'])) {
         echo '<form class="items" id="'.$rows['id'].'" action="../Includes/addtocart.inc.php" method="post">';
         echo '<p class="name">'.$rows['name']."</p>";
-        echo '<img src="'.$rows['img'].'">';
+        echo '<a href="description.php?'.$rows['name'].'"><img src="'.$rows['img'].'"></a>';
         echo '<p class="name">Price: '.$rows['price'].'$</p>';
         echo '<input type="hidden" name="hid_id" value="'.$rows['id'].'">';
         echo '<input type="hidden" name="hid_name" value="'.$rows['name'].'">';

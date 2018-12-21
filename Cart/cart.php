@@ -40,7 +40,7 @@
             echo '<th><img src="'.$value['item_img'].'"></th>';
             echo '<th>'.$value['item_name'].'</th>';
             echo '<th>'.$value['item_price'].'</th>';
-            echo '<th><i class="fas fa-ban" onclick=\'location.href="?'.$value['item_id'].'"\'></i>';
+            echo '<th><i class="fas fa-times" onclick=\'location.href="?'.$value['item_id'].'"\'></i>';
             echo '</tr>';
 
           $_SESSION['total'] = $_SESSION['total'] + $value['item_price'];
@@ -48,12 +48,14 @@
       ?>
           <tr>
             <th></th><th></th><th></th>
-            <th style="text-align: left;"rowspan="4"><form method="POST" action="checkout.php">Total: <?php echo $_SESSION['total'] ?><br><br><input type="submit" name="checkout" value="Checkout"></form></th>
+            <th style="text-align: left;"rowspan="4"><form method="POST" action="checkout.php">Total: <?php echo $_SESSION['total'] ?><br><br><input id="checkout" type="submit" name="checkout" value="Checkout"></form></th>
           </tr>
         </table>
     <?php } else {
-            echo '<p>Empty</p>';
-          }
-        ?>
+            echo '<div id="empty">';
+            echo '<h2>Your shopping cart is empty</h2>';
+            echo '<p><a href="../Main/main.php">Go to main menu</a></p>';
+            echo '</div>';
+        } ?>
   </body>
   <?php include_once '../footer.php'; ?>

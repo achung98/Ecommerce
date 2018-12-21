@@ -26,8 +26,8 @@
             <input type="reset" name="reset" class="input button" value="Reset">
             <input type="submit" name="login" class="input button" value="Log in">
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
     <div id="poster">
       <img src="login.jpg">
